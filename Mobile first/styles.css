@@ -1,0 +1,395 @@
+/*RESET REGLER*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    color: white;
+}
+
+/*GENERELLE REGLER*/
+body{
+ background-color: #0d232e;
+}
+
+
+/*HEADER*/
+header{
+    width: 100%;
+    height: 150px;
+    top: 0px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+header nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16pt;
+}
+
+header nav{
+    display:flex;
+    width: 95%;
+    justify-content: space-around;
+
+}
+
+header nav a:hover{
+    color: #992228;
+}
+
+#valgtknap{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 10px 15px 10px 15px;
+    color: #992228;
+}
+
+.menu{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 10px 15px 10px 15px;
+    color: white;
+}
+
+#bookbord{
+    background-color: #992228;
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+}
+
+.bookbordvalgt {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 10px 15px 10px 15px;
+    color: #0D232E;
+}
+
+
+
+/*HVORFOR ÆNDRER HOVER SIG IKKE????*/
+#bookbord nav a:hover{
+    color: #0D232E;
+}
+
+
+
+
+
+/*FORSIDE*/
+.forsidebody{
+    background-image: url(images/facade.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.forsidetekst{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin-top: 180px;
+
+    font-weight:bold;
+    font-size: 50pt;
+    letter-spacing: 7px;
+    word-spacing: 30px;
+}
+
+h2{
+    padding-top: 20px;
+    font-size: 16pt;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+.forsidetekst p{
+    margin-top: 150px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+
+/*OM OS + BOOK BORD + TILMELD*/
+.tekstfelt {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px 70px 70px 70px;
+    }
+     
+    .tekstfelt div {
+    padding: 30px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: 100;
+    line-height: 27px;
+    }  
+
+    h3{
+        font-size: 20pt; 
+    }
+    
+
+/*EVENTS*/
+.title {
+    text-align: center;
+    font-size: 25pt;
+    letter-spacing: 2px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.overskrift hr {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+ 
+.cardscontainer{
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+}
+ 
+.cardscontainer div{
+    width: 300px;
+    text-align: center;
+    margin: 20px;
+}
+ 
+.cardscontainer a{
+    text-decoration: none;
+    color: white;
+    background-color: #992228;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    border-radius: 10px;
+}
+ 
+.cardscontainer a:hover{
+    color: #0D232E;
+}
+ 
+.cardscontainer h4{
+    margin: 10px;
+    font-weight: bolder;
+}
+ 
+.cardscontainer hr{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+.cardscontainer p {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+
+/*DRINKSKORT*/
+.drinkskortnav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.drinkskortnav nav a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16pt;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.drinkskortnav nav a:hover{
+    color: #992228;
+}
+
+.drinkbilleder{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.drinkbilleder a{
+    text-decoration: none;
+}
+
+h4{
+    margin: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.indhold{
+    display: flex;
+    justify-content: space-around;
+}
+
+.drinksmenu{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
+.priser{
+    text-align: right;
+}
+
+#valgtdrink {
+    color: #992228;
+
+}
+
+.cocktailmenu {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 40px;
+}
+
+.cocktailmenu h6 {
+    font-size: larger;
+}
+
+
+/*FOOTER*/
+footer h6{
+    font-size: 12pt;
+    margin-bottom: 5pt;
+    }
+     
+    footer {
+    color: white;
+    background-color: #0D232E;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 40px 30px;
+    }
+     
+    .socialemedier{
+    display: flex;
+    justify-content: space-between;
+       }
+     
+    .socialemedier a{
+    font-size: 30pt;
+    justify-content: center;
+    color: white;
+    }
+     
+    .socialemedier a :hover{
+    color: #992228;
+    }
+    
+
+/*RESPONSIVE*/
+
+/*MOBIL*/
+@media screen and (max-width:810px){
+    header{
+        justify-content:space-between ;
+        padding-left:10px;
+        padding-right:10px;
+    }
+    
+    /* Skjul laptopmenuen. */
+    .menu{
+        display:none; 
+    }
+
+    .bookbordvalgt{
+        display: none;
+    }
+   
+    /*#åbningstider {
+        display: none;
+    }*/
+
+    #kontakt{
+        display: none;
+    }
+
+    h1{
+        font-size: 35pt;
+        text-align: center;
+    }
+
+    .drinkskortnav nav a {
+        font-size: 12pt;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .drinkbilleder img{
+        height: 90px;
+        width: auto;
+    }
+
+    .drinksmenu{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .cardscontainer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tekstfelt{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tekstfelt div{
+        padding:0;
+    }
+}
+
+/* LAPTOP: */
+@media screen and (min-width: 810px){
+    /* HEADER: LOGO*/
+  
+    /* Skjul mobilmenuen.*/
+    #navMobile{
+        display:none;
+    }
+
+    /* Vis laptopmenuen og samtidig gør den til flex container. */
+    #navLaptop {
+        display:flex; 
+        justify-content:space-around;
+       
+    }
+
+}
